@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#noncontent{
+  width:90%;
+}
 header {
     background-color: white;
     padding: 15px;
