@@ -80,3 +80,8 @@ header {
     font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
 
 }
+
+.content-section img{
+    max-width: 65%;
+    padding-left:35px;
+}
