@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    color: black;
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+    border-bottom: 2px dotted rgb(0, 0, 0); 
+}
+.header-text {
+    font-weight: normal; 
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+
+}
+
+.clickable {
+    color: black;
+    cursor: pointer;
+    animation: blink 1s infinite;
+
+  }
+  .clickable:hover {
+    color: red;
+    animation: none; 
+    
+  }
+  @keyframes blink {
+    0% {
+      color: blue;
+    }
+    50% {
+      color: black;
+    }
+    100% {
+      color: blue;
+    }
+  }
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+/*container*/
+.buttons {
+    width: 25%;
+    background-color: white;
+}
+
+.buttons button {
+    display: block;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+    border: 2px black dotted;
+    border-top: none;
+    border-right: none;
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+    padding:10px;
+}
+
+
+.buttons button.selected {
+    background-color: rgb(255, 251, 0); /* Change color for selected button */
+}
+
+.content {
+    width: 75%;
+    padding: 15px;
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+
+}
+
+.content-section {
+    /* Initially hide all content sections */
+    display: none;
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace; 
+
+}

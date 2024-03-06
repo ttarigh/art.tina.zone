@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <title>TINA TARIGHIAN</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-text">
+        TIN<a id="lastletter" class="clickable" href="https://work.tina.zone"
+          ><span
+            onmouseover="showLabel('A', 'augmented reality work')"
+            onmouseout="hideLabel('A')"
+            >A</span
+          ></a
+        >
+        TA<a
+          class="clickable"
+          href="https://drive.google.com/file/d/1X8Q7uBLzVeRjV4GyZDrhBo2yFYUc78fe/view?usp=sharing"
+          ><span
+            onmouseover="showLabel('R', 'resume')"
+            onmouseout="hideLabel('R')"
+            >R</span
+          ></a
+        >I<a class="clickable" href="https://github.com/ttarigh//"
+          ><span
+            onmouseover="showLabel('G', 'github')"
+            onmouseout="hideLabel('G')"
+            >G</span
+          ></a
+        >HI<a class="clickable" href="#"
+          ><span
+            onmouseover="showLabel('A', 'art works')"
+            onmouseout="hideLabel('A')"
+            >A</span
+          ></a
+        >N <span id="dynamic-word"> is an artist.</span
+        ><span id="labels"></span>
+      </h1>
+    </header>
+
+    <div class="container">
+      <div class="buttons">
+        <button data-content="content1">
+          Worship Me: A Shareable Digital Shrine
+        </button>
+        <button data-content="content2">Interactive Fish Tank</button>
+        <button data-content="content3">
+          Ru and Ashe: an HTML Play about Love
+        </button>
+        <button data-content="content4">
+          Fingerpaint in AR for IAMB Literary Magazine
+        </button>
+        <button data-content="content5">AR Portfolio Enhancer</button>
+        <button data-content="content6">Engage with Me</button>
+        <button data-content="content7">Distance from the Source</button>
+        <button data-content="content8">
+          Machine Learning Demo with Book Covers
+        </button>
+        <button data-content="content9">Happy Test</button>
+        <button data-content="content10">En Route Super Sized Necklace</button>
+        <button data-content="content11">Testing Tina's Vision</button>
+        <button data-content="content12">Magic 8 Ball</button>
+        <button data-content="content13">Love Meter</button>
+        <button data-content="content14">Columbia ADP's Art Exhibit</button>
+        <button data-content="content15">Pop-up Experiments</button>
+        <button data-content="content16">Elf Barighian</button>
+        <button data-content="content17">
+          Audio-Reactive Visualizer Projects
+        </button>
+        <button data-content="content18">
+          Chrome Extension: Stop Buying Things!
+        </button>
+        <button data-content="content19">Mathy, the Math Cat!</button>
+      </div>
+      <div class="content">
+        <p id="noncontent">hi</p>
+        <div id="content1" class="content-section">
+          <h2>Content 1</h2>
+          <p>
+            After a friend with covid jokingly told me to "worship her through
+            the screen," I thought about how I could make a shrine-like website
+            for her. I notortiously make websites and art projects for the
+            people in my life, so this was a fun challenge. This is my first
+            Node.js application! After uploading a photo, users generate a link
+            to their custom shrines, with buttons allowing you to worship them
+            harder and harder. This custom link is sharable with other people,
+            so they can worship you as well.
+          </p>
+          <p>
+            <a id="intext" href="https://worshipme.tina.zone">
+              Build a shrine!</a
+            >
+          </p>
+        </div>
+        <div id="content2" class="content-section" style="display: none">
+          <h2>Content 2</h2>
+          <p>
+            This is a project I completed in a 300-level Introduction to
+            Computer Graphics class at Wellesley College. The entire project was
+            done in JavaScript, WebGL, and Three.js.
+            <a
+              id="intext"
+              href="https://ttarigh.github.io/interactiveaquarium/"
+            >
+              Click here</a
+            >
+            to see how you can interact with the environment using your
+            keyboard.
+          </p>
+        </div>
+        <div id="content3" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            WIP, two characters who are in love that speak to each other across
+            the browser. This is an experiment with dialogue and animation.
+            Current fixes needed: the speech is off. I realized you cannot have
+            text to speech for two popups going at the same time, so I tried to
+            improvise with some inputted audio files.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/asheandru">
+              Enjoy the Show!
+            </a>
+          </p>
+        </div>
+        <div id="content4" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This simple hands-free fingerpainting experience was implemented for
+            IAMB literary magazine's third issue, "NOSTALGIA." The interactive
+            landing page evokes a sense of childlike wonder, perfect for an
+            issue about the good old days.
+          </p>
+          <p>
+            <a id="intext" href="https://iamb.tina.zone">
+              Try Fingerpainting!
+            </a>
+          </p>
+        </div>
+        <div id="content5" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This is a portfolio enhancer I designed using A-frame. Instead of
+            having so much text on my projects page, I decided to record casual
+            videos of myself discussing each one.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/ARhelper">
+              Try it now on my work page!
+            </a>
+          </p>
+        </div>
+        <div id="content6" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            I stopped posting casual selfies of myself on instagram once it
+            started turning into a page where I shared my freelance work and
+            personal projects. I'm not exactly sure why. The humorous side of me
+            likes to think it is because it is too easily accessible, and most
+            people do not deserve my awesome selfies. This led to "Engage with
+            Me," a series of steps you must complete before being deemed worthy
+            enough for an old picture of me.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/engagewithme">
+              Engage with Me
+            </a>
+          </p>
+        </div>
+        <div id="content7" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            I want the truth. Don't stray from the source. This diary entry
+            obfuscates more the further you are away from the place it was
+            written. The diary entry I wrote was based on my favorite song,
+            "Truisms for Dummies," by Headache.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/distancefromsource">
+              Read my Diary
+            </a>
+          </p>
+        </div>
+        <div id="content8" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            I made a quick ML demo using the cocossd database to detect
+            bookcovers.
+          </p>
+        </div>
+        <div id="content9" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            Inspired by the dystopian smile detector Canon installed in their
+            Chinese offices (2021), I temporarily implemented browser-based
+            emotion tracking on my personal website. With Google Analytics, I
+            was able to see whether or not people were enjoying their time at
+            tina.zone..
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/happytest">
+              Read my Diary
+            </a>
+          </p>
+        </div>
+        <div id="content10" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            Inspired by Viviene Westwood's AR campaign for larger-than-life
+            jewelry in real space, I made a 3D model of one of En Route's
+            best-selling necklaces and got some early pics using meta spark for
+            a real-world world object placement. It's always good for me to have
+            some basic 3D modeling in my freelance practice.
+          </p>
+        </div>
+        <div id="content11" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            In an interview with a company, the CEO commented on my glasses and
+            how the lenses are different shapes. This was a cutesy project I put
+            together in a night.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/RIGHTEYELEFTEYE/">
+              Test my Vision!</a
+            >
+          </p>
+        </div>
+        <div id="content12" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This was a simple magic-8 ball I made using my own head, designed to
+            have an old primitive style of animation. I still use this if I'm
+            unsure.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/magic8"> Try the Magic</a>
+          </p>
+        </div>
+        <div id="content13" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This was a birthday present I made for a friend going through a
+            breakup, urging them to remember that the love they've put out into
+            the universe exists inside them.
+          </p>
+          <p>
+            <a id="intext" href="https://tina.zone/lovemeter"> Love Meter</a>
+          </p>
+        </div>
+        <div id="content14" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            Columbia University put on a play based on old alumnis tragic love
+            letters, and featured different artists from NYC. I was invited to
+            participate, and in addition to some live-coding visuals I did for
+            the performance, I also had this simple html/js animation
+          </p>
+          <p><a id="intext" href="https://tina.zone/adp"> Watch Here</a></p>
+        </div>
+        <div id="content15" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This piece is meant to be funny and also experimental. It is about
+            how we may seem perfect on paper even if that could not be farther
+            from the truth. If you want to try this experience, make sure popups
+            and cmaera are turned on.
+          </p>
+          <p id="minihead">
+            <a id="intext" href="https://tina.zone/abouttina">
+              play with popups</a
+            >
+          </p>
+        </div>
+        <div id="content16" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            This piece was made a mockup for a cannabis deivery company, Doobie.
+            It is a great demo of places 3D assets into the real world.
+          </p>
+          <p id="minihead">
+            <a id="intext" href="https://tina.zone/barighian"> hit my vape</a>
+          </p>
+        </div>
+        <div id="content17" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            As an artist in resident, I live code visuals for lots of different
+            NYC bands.
+          </p>
+          <a id="intext" href="https://tina.zone/visuals"> Check them out!</a>
+        </div>
+        <div id="content18" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p>
+            After discovering the trend of "deinfluencing," I decided to take a
+            stab at the consumerism problem. I noticed that because of how
+            convienient it has become to order things online, we are consuimg
+            much more than we need to. My simple solution to this is a chrome
+            extension I aptly named "Stop Buying Things." By detecting that you
+            are on a shopping cart page, the pop-up turns your browser window
+            red for a few seconds, then reminds you of its simple creed: STOP
+            BUYING THINGS! In the few seconds where your browser is totally red,
+            it will allow you to take a deep breath before truly considering if
+            you need to buy anything.
+          </p>
+        </div>
+        <div id="content19" class="content-section" style="display: none">
+          <h2>Content 3</h2>
+          <p id="minihead">
+            What does the application do? What is its purpose?
+          </p>
+          <p>
+            This application is a additional skill practice program built for
+            english-speaking 2nd graders. Its purpose is to help students
+            improve their additional skills by encouraging them to get multiple
+            answers in a row. Users answer the displayed arithemic question,
+            which increases in difficulty every level. Users submit their answer
+            by pressing the submit button, or pressing the enter key on their
+            keyboard. If the user answers correctly, a new problem will be
+            random generated.
+          </p>
+          <p>
+            The number of currently consecutive answers is stored, and it is
+            displayed under "Current Streak" on the webpage. The users highest
+            streak for the session is also displayed, which is reset when the
+            page is refreshed/ a new session starts.
+          </p>
+          <p>
+            For every correctly answered question, the screen displays "Correct!
+            Great Job!" with an accompanying image of the original avatar, Mathy
+            the Adventure Cat, randoming displaying 1 of 3 positive emotions.
+            Every 10 correct consecutive answers is rewarded with unlocking a
+            new background.
+          </p>
+          <p>
+            When users enter incorrectly, the current streak is reset to 0, and
+            the question will not change until it is answer correctly. Mathy the
+            Adventure Cat is displayed as having a pensive, thinking face.
+          </p>
+          <p>
+            When users need help, they can press the help button in the top
+            right of the div container. This alerts the user of some ways to
+            help them solve the problem.
+          </p>
+          <p>
+            For users who have sight impairments or struggle with dyscalculia,
+            there is a speech-to-text toggle button displayed under the current
+            level.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
